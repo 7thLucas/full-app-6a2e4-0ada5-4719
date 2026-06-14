@@ -15,7 +15,7 @@ A mobile-first app where the company publishes and manages its textile machine c
 ## Users
 
 ### Customers
-Factory owners, workshop managers, and tailoring businesses shopping for textile machinery. They need to see specs, photos, and pricing quickly, then place an order or inquiry with minimal steps.
+GST-registered companies, saree weavers, job work persons, and handloom machine users across Tamil Nadu. They need to see full machine specs, photos, and pricing quickly, then place an order or inquiry with minimal steps — on their own schedule, without calling the seller.
 
 ### Company / Admin
 The textile machine seller's team. They manage the product catalog (add, edit, remove listings), process incoming customer orders, and keep the storefront current — without needing technical expertise.
