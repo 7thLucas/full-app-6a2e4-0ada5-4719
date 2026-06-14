@@ -44,4 +44,4 @@ Professional, clean, and approachable. The experience should feel effortless —
 **Admin-facing**: product management (add, edit, remove), incoming order tracking and status updates.
 
 ## Positioning
-The company's own branded mobile storefront — purpose-built for selling textile and handloom machines to saree weavers, job work contractors, and GST companies across Tamil Nadu, with no marketplace dependency and a direct customer relationship.
+The company's own branded mobile storefront — purpose-built for selling textile and handloom machines to saree weavers, job work contractors, and GST companies across India, with no marketplace dependency and a direct customer relationship.
