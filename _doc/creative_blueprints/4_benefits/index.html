@@ -1,56 +1,74 @@
+<style>
+  .mode-landscape .sl-layout { flex-direction: row; }
+  .mode-portrait .sl-layout { flex-direction: column; }
+  .mode-landscape .sl-metrics { width: 58%; }
+  .mode-landscape .sl-roi { width: 42%; }
+  .mode-portrait .sl-metrics { width: 100%; }
+  .mode-portrait .sl-roi { width: 100%; }
+</style>
 <section class="w-full h-full overflow-auto bg-white">
-  <div class="flex flex-col h-full p-10">
+  <div class="sl-layout flex h-full p-12 gap-8">
 
-    <!-- Header -->
-    <div class="mb-5">
-      <p class="text-xs font-semibold tracking-widest uppercase text-amber-500 mb-1">Benefits</p>
-      <h2 class="text-3xl font-bold text-slate-900">What This Changes</h2>
-    </div>
-
-    <div class="flex flex-col flex-1 gap-4">
-
-      <!-- Metric cards row -->
-      <div class="flex gap-4 flex-1">
-
-        <div class="flex-1 bg-slate-50 rounded-2xl p-6 flex flex-col border border-slate-100">
-          <p class="text-xs font-bold uppercase tracking-widest text-amber-500 mb-2">Availability</p>
-          <p class="text-4xl font-bold text-slate-900 mb-2">24/7</p>
-          <p class="text-slate-600 text-sm leading-relaxed">Your storefront never closes. Customers browse and order at any hour — without calling you.</p>
-        </div>
-
-        <div class="flex-1 bg-slate-50 rounded-2xl p-6 flex flex-col border border-slate-100">
-          <p class="text-xs font-bold uppercase tracking-widest text-amber-500 mb-2">Inquiry Pipeline</p>
-          <p class="text-4xl font-bold text-slate-900 mb-2">0 Lost</p>
-          <p class="text-slate-600 text-sm leading-relaxed">Every order arrives as a structured request — no more scattered messages or forgotten calls.</p>
-        </div>
-
-        <div class="flex-1 bg-slate-50 rounded-2xl p-6 flex flex-col border border-slate-100">
-          <p class="text-xs font-bold uppercase tracking-widest text-amber-500 mb-2">Catalog Control</p>
-          <p class="text-4xl font-bold text-slate-900 mb-2">Live</p>
-          <p class="text-slate-600 text-sm leading-relaxed">Update pricing, add machines, and adjust stock instantly — no technical help needed.</p>
-        </div>
-
-        <div class="flex-1 bg-slate-50 rounded-2xl p-6 flex flex-col border border-slate-100">
-          <p class="text-xs font-bold uppercase tracking-widest text-amber-500 mb-2">Channel</p>
-          <p class="text-4xl font-bold text-slate-900 mb-2">Direct</p>
-          <p class="text-slate-600 text-sm leading-relaxed">Own your customer relationship completely — no marketplace fees, no dependency.</p>
-        </div>
-
+    <!-- Left: metric cards -->
+    <div class="sl-metrics flex flex-col">
+      <div class="mb-6">
+        <p class="text-xs font-bold uppercase tracking-widest text-indigo-600 mb-2">Business Outcomes</p>
+        <h2 class="text-3xl font-black text-slate-900">What This App Delivers</h2>
       </div>
-
-      <!-- ROI summary block -->
-      <div class="bg-blue-800 rounded-2xl p-6 flex items-center gap-8">
-        <div class="flex-1">
-          <p class="text-blue-300 text-xs font-bold uppercase tracking-widest mb-1">The Real Win</p>
-          <h3 class="text-white text-xl font-bold leading-snug">Every phone call replaced by an in-app order saves 30+ minutes of coordination time.</h3>
+      <div class="grid grid-cols-2 gap-4 flex-1">
+        <div class="bg-white border border-slate-200 rounded-2xl p-5 flex flex-col justify-between">
+          <p class="text-xs font-semibold text-indigo-600 uppercase tracking-wider mb-2">Availability</p>
+          <p class="text-3xl font-black text-slate-900 mb-2">24 / 7</p>
+          <p class="text-xs text-slate-500 leading-relaxed">Customers browse and order at any hour — no business hours, no waiting.</p>
         </div>
-        <div class="text-right flex-shrink-0">
-          <p class="text-blue-300 text-xs mb-1">Example: 10 orders/week</p>
-          <p class="text-white text-4xl font-bold">5 hrs</p>
-          <p class="text-blue-300 text-xs mt-1">returned to your business, weekly</p>
+        <div class="bg-white border border-slate-200 rounded-2xl p-5 flex flex-col justify-between">
+          <p class="text-xs font-semibold text-amber-600 uppercase tracking-wider mb-2">Coordination</p>
+          <p class="text-3xl font-black text-slate-900 mb-2">0 Calls</p>
+          <p class="text-xs text-slate-500 leading-relaxed">Every order arrives complete — no back-and-forth to clarify specs or prices.</p>
+        </div>
+        <div class="bg-white border border-slate-200 rounded-2xl p-5 flex flex-col justify-between">
+          <p class="text-xs font-semibold text-green-700 uppercase tracking-wider mb-2">Catalog Reach</p>
+          <p class="text-3xl font-black text-slate-900 mb-2">100%</p>
+          <p class="text-xs text-slate-500 leading-relaxed">Every machine always visible — customers discover products you'd never pitch in a call.</p>
+        </div>
+        <div class="bg-white border border-slate-200 rounded-2xl p-5 flex flex-col justify-between">
+          <p class="text-xs font-semibold text-slate-600 uppercase tracking-wider mb-2">Coverage</p>
+          <p class="text-2xl font-black text-slate-900 mb-2">Tamil Nadu</p>
+          <p class="text-xs text-slate-500 leading-relaxed">One app reaches saree weavers and job workers across the entire state.</p>
         </div>
       </div>
-
     </div>
+
+    <!-- Right: channel advantage block -->
+    <div class="sl-roi flex">
+      <div class="bg-indigo-900 rounded-3xl p-8 flex flex-col justify-between w-full">
+        <div>
+          <p class="text-indigo-300 text-xs font-bold uppercase tracking-wider mb-5">Channel Advantage</p>
+          <h3 class="text-white text-2xl font-black leading-snug mb-5">
+            Your Store.<br/>
+            No Marketplace.<br/>
+            No Commission.
+          </h3>
+          <p class="text-indigo-200 text-sm leading-relaxed">
+            Unlike third-party platforms, this is your branded storefront. Every sale, every customer relationship, every rupee — stays with you.
+          </p>
+        </div>
+        <div class="space-y-3 mt-6">
+          <div class="flex items-center gap-3 bg-indigo-800 rounded-xl px-4 py-3">
+            <span class="text-green-400 font-bold text-base flex-shrink-0">✓</span>
+            <span class="text-white text-sm">Direct customer relationship</span>
+          </div>
+          <div class="flex items-center gap-3 bg-indigo-800 rounded-xl px-4 py-3">
+            <span class="text-green-400 font-bold text-base flex-shrink-0">✓</span>
+            <span class="text-white text-sm">No platform fees or commissions</span>
+          </div>
+          <div class="flex items-center gap-3 bg-indigo-800 rounded-xl px-4 py-3">
+            <span class="text-green-400 font-bold text-base flex-shrink-0">✓</span>
+            <span class="text-white text-sm">Full control of pricing &amp; catalog</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>

@@ -1,61 +1,60 @@
 <section class="w-full h-full overflow-auto bg-white">
-  <div class="flex flex-col h-full p-10">
+  <div class="flex flex-col h-full p-12">
 
     <!-- Header -->
-    <div class="mb-5">
-      <p class="text-xs font-semibold tracking-widest uppercase text-amber-500 mb-1">Core Features</p>
-      <h2 class="text-3xl font-bold text-slate-900 mb-4">Built for Two Worlds</h2>
-      <!-- Persona chips -->
-      <div class="flex gap-3">
-        <div class="flex items-center gap-2 bg-blue-800 text-white px-4 py-1.5 rounded-full text-sm font-semibold">
-          <span class="w-2 h-2 rounded-full bg-amber-400 flex-shrink-0"></span>
-          Customer
-        </div>
-        <div class="flex items-center gap-2 bg-slate-100 text-slate-500 px-4 py-1.5 rounded-full text-sm font-medium">
-          Admin
-        </div>
+    <div class="mb-6">
+      <p class="text-xs font-bold uppercase tracking-widest text-indigo-600 mb-2">Core Features</p>
+      <h2 class="text-3xl font-black text-slate-900">Everything Your App Needs</h2>
+    </div>
+
+    <!-- Persona chips -->
+    <div class="flex gap-3 mb-7">
+      <div class="inline-flex items-center gap-2 bg-indigo-700 text-white rounded-full px-5 py-2">
+        <span class="w-2 h-2 rounded-full bg-amber-400 flex-shrink-0"></span>
+        <span class="text-sm font-bold">Customer</span>
+        <span class="text-indigo-300 text-xs ml-1">· active</span>
+      </div>
+      <div class="inline-flex items-center gap-2 bg-slate-100 rounded-full px-5 py-2">
+        <span class="w-2 h-2 rounded-full bg-slate-400 flex-shrink-0"></span>
+        <span class="text-sm font-medium text-slate-500">Company Admin</span>
       </div>
     </div>
 
-    <!-- Feature cards grid (2×2) -->
-    <div class="grid grid-cols-2 gap-4 flex-1">
-
-      <!-- Catalog -->
-      <div class="flex gap-4 items-start bg-slate-50 rounded-2xl p-6 border border-slate-100">
-        <div class="w-10 h-10 rounded-xl bg-blue-100 flex items-center justify-center text-blue-700 text-xl flex-shrink-0">🏭</div>
-        <div>
-          <h4 class="text-slate-900 font-bold text-base mb-1">Product Catalog</h4>
-          <p class="text-slate-600 text-sm leading-relaxed">Browse all available textile machines with photos, categories, and pricing in one clean view.</p>
-        </div>
+    <!-- Customer feature cards 2×2 -->
+    <div class="grid grid-cols-2 gap-4 mb-4">
+      <div class="bg-indigo-50 border border-indigo-100 rounded-2xl p-5">
+        <div class="text-xl mb-3">🧵</div>
+        <h3 class="text-sm font-bold text-slate-900 mb-1">Product Catalog</h3>
+        <p class="text-xs text-slate-500 leading-relaxed">Browse all textile &amp; handloom machines — photos, categories, and pricing at a glance.</p>
       </div>
-
-      <!-- Detail View -->
-      <div class="flex gap-4 items-start bg-slate-50 rounded-2xl p-6 border border-slate-100">
-        <div class="w-10 h-10 rounded-xl bg-amber-100 flex items-center justify-center text-amber-700 text-xl flex-shrink-0">🔍</div>
-        <div>
-          <h4 class="text-slate-900 font-bold text-base mb-1">Product Detail View</h4>
-          <p class="text-slate-600 text-sm leading-relaxed">Full machine specs, multiple photos, and stock status — everything needed to make a confident decision.</p>
-        </div>
+      <div class="bg-indigo-50 border border-indigo-100 rounded-2xl p-5">
+        <div class="text-xl mb-3">🔍</div>
+        <h3 class="text-sm font-bold text-slate-900 mb-1">Search &amp; Filter</h3>
+        <p class="text-xs text-slate-500 leading-relaxed">Find machines by type, brand, price range, or availability in seconds.</p>
       </div>
-
-      <!-- Search & Filter -->
-      <div class="flex gap-4 items-start bg-slate-50 rounded-2xl p-6 border border-slate-100">
-        <div class="w-10 h-10 rounded-xl bg-green-100 flex items-center justify-center text-green-700 text-xl flex-shrink-0">⚡</div>
-        <div>
-          <h4 class="text-slate-900 font-bold text-base mb-1">Search & Filter</h4>
-          <p class="text-slate-600 text-sm leading-relaxed">Find the right machine by type, brand, price range, or availability — fast results, zero frustration.</p>
-        </div>
+      <div class="bg-indigo-50 border border-indigo-100 rounded-2xl p-5">
+        <div class="text-xl mb-3">📋</div>
+        <h3 class="text-sm font-bold text-slate-900 mb-1">Product Detail View</h3>
+        <p class="text-xs text-slate-500 leading-relaxed">Full specs, multiple images, and stock status — all on one clean page.</p>
       </div>
-
-      <!-- Order / Inquiry -->
-      <div class="flex gap-4 items-start bg-blue-800 rounded-2xl p-6">
-        <div class="w-10 h-10 rounded-xl bg-blue-700 flex items-center justify-center text-white text-xl flex-shrink-0">📋</div>
-        <div>
-          <h4 class="text-white font-bold text-base mb-1">Order / Inquiry Flow</h4>
-          <p class="text-blue-200 text-sm leading-relaxed">Submit an order or request a quote directly from any product page — structured, clear, and fast.</p>
-        </div>
+      <div class="bg-amber-50 border border-amber-200 rounded-2xl p-5">
+        <div class="text-xl mb-2">📦</div>
+        <h3 class="text-sm font-bold text-slate-900 mb-1">Order &amp; Inquiry</h3>
+        <p class="text-xs text-slate-500 leading-relaxed mb-2">Request a quote or place a direct order from any product page.</p>
+        <span class="inline-block bg-amber-500 text-slate-900 text-xs font-bold px-2.5 py-0.5 rounded-full">Day-one feature</span>
       </div>
-
     </div>
+
+    <!-- Admin strip -->
+    <div class="bg-slate-900 rounded-2xl px-5 py-4 flex items-center gap-4">
+      <p class="text-slate-400 text-xs font-bold uppercase tracking-wider flex-shrink-0">Admin</p>
+      <div class="w-px h-4 bg-slate-700 flex-shrink-0"></div>
+      <div class="flex gap-2 flex-wrap">
+        <span class="bg-slate-700 text-white text-xs px-3 py-1.5 rounded-full">Catalog Management</span>
+        <span class="bg-slate-700 text-white text-xs px-3 py-1.5 rounded-full">Order Tracking</span>
+        <span class="bg-slate-700 text-white text-xs px-3 py-1.5 rounded-full">Storefront Control</span>
+      </div>
+    </div>
+
   </div>
 </section>

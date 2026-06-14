@@ -1,45 +1,57 @@
 <style>
-.mode-landscape .sl-layout { flex-direction: row; }
-.mode-portrait .sl-layout { flex-direction: column; }
-.mode-landscape .sl-left { width: 54%; min-height: 100%; }
-.mode-portrait .sl-left { width: 100%; }
-.mode-landscape .sl-right { flex: 1; min-height: 100%; }
-.mode-portrait .sl-right { height: 40%; width: 100%; }
+  .mode-landscape .sl-layout { flex-direction: row; }
+  .mode-portrait .sl-layout { flex-direction: column; }
+  .mode-landscape .sl-content { width: 52%; }
+  .mode-landscape .sl-visual { width: 48%; }
+  .mode-portrait .sl-content { width: 100%; flex: 1; }
+  .mode-portrait .sl-visual { width: 100%; height: 40%; }
 </style>
 <section class="w-full h-full overflow-auto bg-white">
   <div class="sl-layout flex h-full">
 
-    <!-- Left: dark editorial column -->
-    <div class="sl-left flex flex-col justify-between bg-slate-900 p-12">
+    <!-- Left: content column -->
+    <div class="sl-content flex flex-col justify-between p-12">
       <div>
-        <div class="flex items-center gap-3 mb-10">
-          <div class="bg-amber-400 h-0.5" style="width:2rem"></div>
-          <span class="text-amber-400 text-xs tracking-widest uppercase font-semibold">Textile Machine Sales</span>
+        <div class="inline-flex items-center gap-2 bg-amber-50 border border-amber-200 rounded-full px-4 py-1.5 mb-10">
+          <span class="w-2 h-2 rounded-full bg-amber-500 flex-shrink-0"></span>
+          <span class="text-xs font-bold tracking-widest text-amber-700 uppercase">Tamil Nadu · Textile Machines</span>
         </div>
-        <h1 class="text-white font-bold leading-tight mb-6" style="font-size:2.6rem;line-height:1.15">
-          Your Textile<br>Machines. In Every<br>Customer's Pocket.
+        <h1 class="text-5xl font-black text-slate-900 leading-tight mb-6">
+          Sell Your<br/>
+          <span class="text-indigo-700">Machines.</span><br/>
+          Free Your Mind.
         </h1>
-        <p class="text-slate-400 text-base leading-relaxed" style="max-width:320px">
-          A mobile storefront that sells around the clock — so you manage the business, not the chaos.
+        <p class="text-base text-slate-500 leading-relaxed" style="max-width: 22rem;">
+          A branded mobile storefront for textile machine sellers — so saree weavers, job work persons, and GST companies across Tamil Nadu browse, compare, and order without a single phone call.
         </p>
-        <div class="mt-8 flex items-center gap-3">
-          <span class="w-2 h-2 rounded-full bg-amber-400 flex-shrink-0"></span>
-          <span class="text-slate-500 text-xs tracking-wide">Effortless. Direct. Always on.</span>
-        </div>
       </div>
       <div>
         <data-attribution />
       </div>
     </div>
 
-    <!-- Right: imagery -->
-    <div class="sl-right relative overflow-hidden">
+    <!-- Right: visual column -->
+    <div class="sl-visual relative overflow-hidden bg-indigo-50">
       <img
-        src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=modern+industrial+textile+weaving+machine+professional+factory+interior+clean+well+lit+blue+steel+tones+high+quality+photography"
-        alt="Textile machine equipment"
+        src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=handloom%20textile%20weaving%20machine%20Tamil%20Nadu%20workshop%20silk%20saree%20warm%20golden%20industrial%20light%20editorial%20professional%20photography"
+        alt="Textile weaving machinery"
         class="w-full h-full object-cover"
       />
-      <div class="absolute inset-0" style="background:linear-gradient(to right,rgba(15,23,42,0.25) 0%,transparent 35%)"></div>
+      <div class="absolute inset-0" style="background: linear-gradient(to right, rgba(255,255,255,0.55) 0%, transparent 38%);"></div>
+      <div class="absolute bottom-10 right-8">
+        <div class="bg-indigo-900 rounded-2xl p-5" style="min-width: 180px;">
+          <p class="text-indigo-300 text-xs font-bold uppercase tracking-wider mb-3">Serving</p>
+          <div class="space-y-1.5">
+            <p class="text-white text-sm font-semibold">Saree Weavers</p>
+            <p class="text-white text-sm font-semibold">Job Work Persons</p>
+            <p class="text-white text-sm font-semibold">GST Companies</p>
+            <p class="text-white text-sm font-semibold">Handloom Users</p>
+          </div>
+          <div class="mt-3 pt-3 border-t border-indigo-700">
+            <p class="text-indigo-300 text-xs">All across Tamil Nadu</p>
+          </div>
+        </div>
+      </div>
     </div>
 
   </div>
