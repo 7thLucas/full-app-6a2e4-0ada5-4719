@@ -18,7 +18,7 @@ A mobile-first app where the company publishes and manages its textile machine c
 GST-registered companies, saree weavers, job work persons, and handloom machine users across Tamil Nadu. They need to see full machine specs, photos, and pricing quickly, then place an order or inquiry with minimal steps — on their own schedule, without calling the seller.
 
 ### Company / Admin
-The textile machine seller's team. They manage the product catalog (add, edit, remove listings), process incoming customer orders, and keep the storefront current — without needing technical expertise.
+The textile machine seller's team (Patheesh Engineering — GST-registered). They manage the product catalog (add, edit, remove listings), process incoming customer orders, generate GST-compliant invoices, and keep the storefront current — without needing technical expertise.
 
 ## Core Features
 1. **Product Catalog** — Browse all available textile machines with photos, categories, and pricing.
@@ -27,6 +27,8 @@ The textile machine seller's team. They manage the product catalog (add, edit, r
 4. **Order / Inquiry Flow** — Customers request a quote or place a direct order from any product page.
 5. **AI Assistant** — AI-powered recommendations help customers describe their weaving or job work need and get matched to the right machine instantly.
 6. **Admin Panel** — Seller team manages listings and reviews/updates order statuses.
+7. **GST Invoice Generation** — Every confirmed order automatically generates a GST-compliant tax invoice (with Patheesh Engineering's GSTIN), ready to send to B2B buyers.
+8. **Customer Activity Intelligence** — Admin receives a real-time alert when any customer opens the app. If a customer searches the same product two or more times, the admin sees that customer's registered mobile number and contact details to follow up directly (requires customer registration at first open).
 
 ## Brand & Tone
 Professional, clean, and approachable. The experience should feel effortless — customers browse with confidence, the company operates with peace of mind. No clutter, no friction. Understated industrial confidence.
