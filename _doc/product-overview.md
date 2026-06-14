@@ -25,7 +25,8 @@ The textile machine seller's team. They manage the product catalog (add, edit, r
 2. **Product Detail View** — Per-machine deep-dive: full specifications, multiple images, stock status.
 3. **Search & Filter** — Find machines by type, brand, price range, or availability.
 4. **Order / Inquiry Flow** — Customers request a quote or place a direct order from any product page.
-5. **Admin Panel** — Seller team manages listings and reviews/updates order statuses.
+5. **AI Assistant** — AI-powered recommendations help customers describe their weaving or job work need and get matched to the right machine instantly.
+6. **Admin Panel** — Seller team manages listings and reviews/updates order statuses.
 
 ## Brand & Tone
 Professional, clean, and approachable. The experience should feel effortless — customers browse with confidence, the company operates with peace of mind. No clutter, no friction. Understated industrial confidence.
