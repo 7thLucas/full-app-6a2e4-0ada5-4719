@@ -1,0 +1,46 @@
+<style>
+.mode-landscape .sl-layout { flex-direction: row; }
+.mode-portrait .sl-layout { flex-direction: column; }
+.mode-landscape .sl-left { width: 54%; min-height: 100%; }
+.mode-portrait .sl-left { width: 100%; }
+.mode-landscape .sl-right { flex: 1; min-height: 100%; }
+.mode-portrait .sl-right { height: 40%; width: 100%; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-layout flex h-full">
+
+    <!-- Left: dark editorial column -->
+    <div class="sl-left flex flex-col justify-between bg-slate-900 p-12">
+      <div>
+        <div class="flex items-center gap-3 mb-10">
+          <div class="bg-amber-400 h-0.5" style="width:2rem"></div>
+          <span class="text-amber-400 text-xs tracking-widest uppercase font-semibold">Textile Machine Sales</span>
+        </div>
+        <h1 class="text-white font-bold leading-tight mb-6" style="font-size:2.6rem;line-height:1.15">
+          Your Textile<br>Machines. In Every<br>Customer's Pocket.
+        </h1>
+        <p class="text-slate-400 text-base leading-relaxed" style="max-width:320px">
+          A mobile storefront that sells around the clock — so you manage the business, not the chaos.
+        </p>
+        <div class="mt-8 flex items-center gap-3">
+          <span class="w-2 h-2 rounded-full bg-amber-400 flex-shrink-0"></span>
+          <span class="text-slate-500 text-xs tracking-wide">Effortless. Direct. Always on.</span>
+        </div>
+      </div>
+      <div>
+        <data-attribution />
+      </div>
+    </div>
+
+    <!-- Right: imagery -->
+    <div class="sl-right relative overflow-hidden">
+      <img
+        src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=modern+industrial+textile+weaving+machine+professional+factory+interior+clean+well+lit+blue+steel+tones+high+quality+photography"
+        alt="Textile machine equipment"
+        class="w-full h-full object-cover"
+      />
+      <div class="absolute inset-0" style="background:linear-gradient(to right,rgba(15,23,42,0.25) 0%,transparent 35%)"></div>
+    </div>
+
+  </div>
+</section>
