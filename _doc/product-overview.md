@@ -24,7 +24,7 @@ The textile machine seller's team (Patheesh Engineering — GST-registered). The
 1. **Product Catalog** — Browse all available textile machines with photos, categories, and pricing.
 2. **Product Detail View** — Per-machine deep-dive: full specifications, multiple images, stock status.
 3. **Search & Filter** — Find machines by type, brand, price range, or availability.
-4. **Order / Inquiry Flow** — Customers request a quote or place a direct order from any product page.
+4. **Direct Order Flow** — Customers place orders directly from the catalog — no phone calls, no inquiry step, no waiting. Order details go straight to the admin.
 5. **AI Assistant** — AI-powered recommendations help customers describe their weaving or job work need and get matched to the right machine instantly.
 6. **Admin Panel** — Seller team manages listings and reviews/updates order statuses.
 7. **GST Invoice Generation** — Every confirmed order automatically generates a GST-compliant tax invoice (with Patheesh Engineering's GSTIN), ready to send to B2B buyers.
