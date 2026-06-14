@@ -1,7 +1,7 @@
 # Product Overview
 
 ## Product Name
-TextileShop *(working name — to be confirmed)*
+Patheesh Engineering
 
 ## What It Is
 A mobile app that gives a textile machine products company a clean, direct sales channel to its customers. Customers browse the full product catalog, view specs and pricing, and place orders — without phone calls, without friction, and without confusion.
