@@ -38,6 +38,7 @@ Professional, clean, and approachable. The experience should feel effortless —
 - **Stress-free navigation**: customers always know where they are and what to do next.
 - **Operational simplicity**: the company manages its catalog without technical help.
 - **Clarity over complexity**: product specs and pricing are always visible upfront.
+- **Admin-exclusive product control**: Only Patheesh Engineering's admin can add, edit, or remove product listings. No third-party, external company, or customer account may publish or modify the catalog without explicit admin permission. This is a non-negotiable access rule — the platform is a single-seller storefront, not a marketplace.
 
 ## MVP Scope
 **Customer-facing**: product catalog, search and filter, product detail view, order/inquiry flow.
