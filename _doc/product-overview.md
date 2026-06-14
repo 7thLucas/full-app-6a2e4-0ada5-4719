@@ -1,0 +1,1 @@
+i want to manage my company by selling machine products of textile using mobile app to costumer free mind use
