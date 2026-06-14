@@ -41,7 +41,7 @@ Professional, clean, and approachable. The experience should feel effortless —
 - **Admin-exclusive product control**: Only Patheesh Engineering's admin can add, edit, or remove product listings. No third-party, external company, or customer account may publish or modify the catalog without explicit admin permission. This is a non-negotiable access rule — the platform is a single-seller storefront, not a marketplace.
 
 ## MVP Scope
-**Customer-facing**: product catalog, search and filter, product detail view, order/inquiry flow.
+**Customer-facing**: product catalog, search and filter, product detail view, direct order flow.
 **Admin-facing**: product management (add, edit, remove), incoming order tracking and status updates.
 
 ## Positioning
